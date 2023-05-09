@@ -1,0 +1,148 @@
+
+
+.inicial-home {
+    width: min(1440px, 100%);
+    padding: 0px 165px 0px 165px;
+    position: relative;
+
+    background-color: inherit
+}
+
+.home-image {
+    width: 1110px;
+    height: 600px;
+}
+
+.about-window {
+    width: 445px;
+    height: 357px;
+
+    position: absolute;
+    top: 243px;
+    left: 164px;
+
+    background-color: #FAFAFA;
+}
+
+.about-window h1 {
+    padding: 56px 28px 53px 27px;
+    
+    font-family: 'Ibarra Real Nova', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 50px;
+    letter-spacing: -0.446429px;
+
+    color: #33323D;
+}
+
+.button-about {
+    display: flex;
+
+    width: 200px;
+    height:48px;    
+    
+    border: none;      
+    background-color: #203A4C;         
+}
+
+.button-about a {    
+    text-decoration: none;
+}
+
+.button-about-name h1 {
+    padding: 17px 30px;
+
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.button-about-arrow {    
+    border: none;
+    background-color: #000000;
+    opacity: 50%;
+}
+
+.button-about img {
+    margin: 16px 18px;
+}
+
+.button-about:hover  {
+    background-color: #5FB4A2; 
+}
+
+.about {
+    display: flex;
+    margin: 150px 165px 150px 165px;     
+    background-color: #F2F2F2;
+}
+
+.about img {
+    width:540px;
+    height:600px; 
+}
+
+.about-text {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+
+    margin-left: 140px;
+    background-color:  #F2F2F2;
+}
+
+.about-text h1 { 
+    display: inline-block;
+    padding-top: 51px;
+
+    font-family: 'Ibarra Real Nova', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 42px;
+    letter-spacing: -0.357143px;
+
+    color: #33323D;
+}
+
+.about-text p {
+    display: inline-block;
+    padding-top: 28px;
+   
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+
+    color: #33323D;
+    mix-blend-mode: normal;  
+    opacity: 0.8;
+}
+
+.portforio-button {
+    width:204px;
+    height:48px;
+    margin: 24px 113px 40px 113px;
+
+    border: 1px solid;   
+    cursor: pointer;
+    background-color: #F2F2F2; 
+}
+
+.portforio-button h2 { 
+    padding: 17px 14px;
+
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    color: #33323D;
+}
